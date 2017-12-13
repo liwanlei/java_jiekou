@@ -2,16 +2,13 @@
  * 
  */
 package com.testapi.until;
-
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import javax.swing.SortingFocusTraversalPolicy;
-
 import com.google.gson.Gson;
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 

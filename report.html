@@ -7128,43 +7128,46 @@
 </script>
 <script type="text/javascript">
     var resultData = {
-  "testPass": 4,
+  "testPass": 0,
   "testSkip": 0,
-  "totalTime": "3533ms",
-  "testAll": 4,
-  "beginTime": "2017-12-13 14:21:26.584",
+  "totalTime": "0ms",
+  "testAll": 1,
+  "beginTime": "2017-12-13 17:31:04.301",
   "testResult": [
     {
       "className": "com.testapi.cas.NewTest",
       "methodName": "f",
-      "spendTime": "3265ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.cas.NewTest",
-      "methodName": "f",
-      "spendTime": "22ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.cas.NewTest",
-      "methodName": "f",
-      "spendTime": "20ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.cas.NewTest",
-      "methodName": "f",
-      "spendTime": "226ms",
-      "status": "成功",
-      "log": []
+      "spendTime": "0ms",
+      "status": "失败",
+      "log": [
+        "org.testng.TestNGException: nData Provider public java.lang.Object[][] com.testapi.cas.NewTest.createData() throws java.io.IOException returned a null value",
+        "    org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)",
+        "    org.testng.internal.Parameters.handleParameters(Parameters.java:706)",
+        "    org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)",
+        "    org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)",
+        "    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:914)",
+        "    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)",
+        "    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)",
+        "    org.testng.TestRunner.privateRun(TestRunner.java:648)",
+        "    org.testng.TestRunner.run(TestRunner.java:505)",
+        "    org.testng.SuiteRunner.runTest(SuiteRunner.java:455)",
+        "    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)",
+        "    org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)",
+        "    org.testng.SuiteRunner.run(SuiteRunner.java:364)",
+        "    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)",
+        "    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)",
+        "    org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)",
+        "    org.testng.TestNG.runSuitesLocally(TestNG.java:1116)",
+        "    org.testng.TestNG.runSuites(TestNG.java:1028)",
+        "    org.testng.TestNG.run(TestNG.java:996)",
+        "    org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)",
+        "    org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)",
+        "    org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)"
+      ]
     }
   ],
-  "testFail": 0,
-  "testName": "20171213142126553"
+  "testFail": 1,
+  "testName": "20171213173104116"
 };
 
     function clickRow(obj){

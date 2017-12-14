@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/gson-2.3.1.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/xml-apis-2.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/xmlbeans-xmlpublic-2.4.0.jar/xmlbeans-xmlpublic-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/eclipse-workspace/ApiTest/lib/poi-bin-3.17-20170915/poi-3.17/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

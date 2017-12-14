@@ -22,12 +22,11 @@ public class Getcode {
 	public String geturl() {
 		return url;
 	}
-	public String getHttpResponse(String parm,String baseurl,String path,String meth) {
+	public String getHttpResponse(String parm,String url,String meth) {
 		String line="";
 		String resulst="";
-		url=baseurl+path;
 		try {
-			HttpURLConnection connection=Urlconnetc.getConnection(url, meth,parm);
+			HttpURLConnection connection=Urlconnetc.getConnection(url,meth,parm);
 			DataOutputStream out=null;
 			connection.connect();
 			out = new DataOutputStream(connection.getOutputStream());
@@ -41,7 +40,7 @@ public class Getcode {
             reader.close();
             connection.disconnect();
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 		return resulst;
 	}

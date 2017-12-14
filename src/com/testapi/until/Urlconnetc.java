@@ -24,7 +24,7 @@ public class Urlconnetc {
 	            connection.setUseCaches(false);
 	            connection.setRequestMethod(meth);
 	            connection.setInstanceFollowRedirects(true);
-	            connection.setRequestProperty("Content-Type","application/json");
+	            connection.setRequestProperty("Content-Type","application/x-www-form-urlencoded");
 	            connection.setRequestProperty("Accept","application/json");
 	            connection.setInstanceFollowRedirects(true);
 	        } catch (Exception e) {

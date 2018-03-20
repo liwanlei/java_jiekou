@@ -1,5 +1,5 @@
 /**
- * 
+ * 解析json返回参数
  */
 package com.testapi.until;
 import com.google.gson.Gson;

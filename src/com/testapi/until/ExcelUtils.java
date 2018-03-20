@@ -1,5 +1,4 @@
 package com.testapi.until;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -62,9 +61,4 @@ public class ExcelUtils {
             throw (e);
             }
         }
-    public static void main(String[] args) throws Exception {
-    	ExcelUtils excelUtils=new ExcelUtils();
-    	Object[][] m = excelUtils.getTableArray("C:\\Users\\Administrator\\eclipse-workspace\\ApiTest\\casedata\\casedata.xlsx","Sheet1");
- 
-	}
     }

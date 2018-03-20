@@ -1,5 +1,5 @@
 /**
- * 
+ * 发送请求获取相应
  */
 package com.testapi.until;
 import java.io.BufferedReader;

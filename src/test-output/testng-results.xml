@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1701" started-at="2018-03-20T07:45:32Z" finished-at="2018-03-20T07:45:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1701" started-at="2018-03-20T07:45:32Z" finished-at="2018-03-20T07:45:34Z">
+      <class name="com.testapi.casev.Testapi">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="beforeTest" is-config="true" duration-ms="9" started-at="2018-03-20T15:45:32Z" finished-at="2018-03-20T15:45:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="180" started-at="2018-03-20T15:45:33Z" data-provider="DP1" finished-at="2018-03-20T15:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！1'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-03-20T15:45:33Z" data-provider="DP1" finished-at="2018-03-20T15:45:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！2'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="27" started-at="2018-03-20T15:45:33Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！3'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="24" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！4'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="23" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！5'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="27" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！6'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="25" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！7'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="26" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！8'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="35" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！9'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="27" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！10'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="26" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！11'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="24" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！12'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="37" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！13'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="25" started-at="2018-03-20T15:45:34Z" data-provider="DP1" finished-at="2018-03-20T15:45:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.tuling123.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/openapi/api/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{'key':'你好！14'}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA["40007"]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-03-20T15:45:34Z" finished-at="2018-03-20T15:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.testapi.casev.Testapi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

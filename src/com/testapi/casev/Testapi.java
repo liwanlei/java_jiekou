@@ -3,6 +3,7 @@
  * 
  */
 package com.testapi.casev;
+import static org.junit.Assert.assertArrayEquals;
 import static org.testng.Assert.assertEquals;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;

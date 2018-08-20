@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1390" started-at="2018-04-02T02:03:17Z" finished-at="2018-04-02T02:03:18Z">
+  <suite name="Default suite" duration-ms="971" started-at="2018-08-20T01:01:15Z" finished-at="2018-08-20T01:01:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1390" started-at="2018-04-02T02:03:17Z" finished-at="2018-04-02T02:03:18Z">
+    <test name="Default test" duration-ms="971" started-at="2018-08-20T01:01:15Z" finished-at="2018-08-20T01:01:16Z">
       <class name="com.testapi.casev.Testapi">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-04-02T10:03:17Z" finished-at="2018-04-02T10:03:17Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-08-20T09:01:15Z" finished-at="2018-08-20T09:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="356" started-at="2018-04-02T10:03:17Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="113" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="104" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="40" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="28" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="29" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="25" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="29" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="39" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="26" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -215,7 +215,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="40" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="33" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -249,7 +249,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="38" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="31" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -283,7 +283,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="27" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
           <params>
             <param index="0">
               <value>
@@ -317,7 +317,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="35" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -351,7 +351,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="33" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -385,7 +385,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="26" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="33" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -419,7 +419,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="64" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -453,7 +453,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-04-02T10:03:18Z" data-provider="DP1" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="28" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
           <params>
             <param index="0">
               <value>
@@ -487,7 +487,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-04-02T10:03:18Z" finished-at="2018-04-02T10:03:18Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-20T09:01:16Z" finished-at="2018-08-20T09:01:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

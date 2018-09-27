@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="971" started-at="2018-08-20T01:01:15Z" finished-at="2018-08-20T01:01:16Z">
+  <suite name="Default suite" duration-ms="1056" started-at="2018-09-27T06:50:42Z" finished-at="2018-09-27T06:50:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="971" started-at="2018-08-20T01:01:15Z" finished-at="2018-08-20T01:01:16Z">
+    <test name="Default test" duration-ms="1056" started-at="2018-09-27T06:50:42Z" finished-at="2018-09-27T06:50:43Z">
       <class name="com.testapi.casev.Testapi">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="beforeTest" is-config="true" duration-ms="8" started-at="2018-08-20T09:01:15Z" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="beforeTest" is-config="true" duration-ms="9" started-at="2018-09-27T06:50:42Z" finished-at="2018-09-27T06:50:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="113" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="107" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -20,7 +20,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -35,17 +35,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="19" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -54,7 +51,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -69,17 +66,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="28" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="15" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -88,7 +82,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -103,17 +97,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="25" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="13" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -122,7 +113,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -137,17 +128,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="32" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="18" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -156,7 +144,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -171,17 +159,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="26" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="14" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -190,7 +175,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -205,17 +190,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="33" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="15" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -224,7 +206,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -239,17 +221,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="31" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="15" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -258,7 +237,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -273,17 +252,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="27" started-at="2018-08-20T09:01:15Z" data-provider="DP1" finished-at="2018-08-20T09:01:15Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="14" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -292,7 +268,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -307,17 +283,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="35" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="13" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -326,7 +299,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -341,17 +314,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="219" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -360,7 +330,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -375,17 +345,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="33" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="16" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -394,7 +361,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -409,17 +376,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="34" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="15" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -428,7 +392,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -443,17 +407,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="f" duration-ms="28" started-at="2018-08-20T09:01:16Z" data-provider="DP1" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="f" duration-ms="14" started-at="2018-09-27T06:50:43Z" data-provider="DP1" finished-at="2018-09-27T06:50:43Z">
           <params>
             <param index="0">
               <value>
@@ -462,7 +423,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[/openapi/api/]]>
+                <![CDATA[/openapi/api/v2]]>
               </value>
             </param>
             <param index="2">
@@ -477,17 +438,14 @@
             </param>
             <param index="4">
               <value>
-                <![CDATA["40007"]]>
+                <![CDATA[4000]]>
               </value>
-            </param>
-            <param index="5">
-              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testapi.casev.Testapi@28d25987]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-08-20T09:01:16Z" finished-at="2018-08-20T09:01:16Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testapi.casev.Testapi@77caeb3e]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-09-27T06:50:43Z" finished-at="2018-09-27T06:50:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

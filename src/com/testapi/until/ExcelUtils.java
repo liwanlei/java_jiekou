@@ -53,6 +53,7 @@ public class ExcelUtils {
                 return "";
             }
             else{
+            	Cell.setCellType(Cell.CELL_TYPE_STRING);
                 String CellData = Cell.getStringCellValue();
                 return CellData;
             }

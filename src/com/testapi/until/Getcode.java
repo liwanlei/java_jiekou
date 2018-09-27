@@ -34,6 +34,7 @@ public class Getcode {
             }
             reader.close();
             connection.disconnect();
+            return resulst;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

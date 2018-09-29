@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<suite name="Suite" verbose="1"  parallel="true" thread-count="2">
+		<test name="interface">
+			<classes>
+				<class name="com.testapi.casev.Testapi">
+				</class>
+			</classes>
+		</test>
+	</suite>

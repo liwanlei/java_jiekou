@@ -31,7 +31,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class ZTestReport implements IReporter {
-	
 	private String path = System.getProperty("user.dir")+File.separator+"report.html";
 	
 	private String templatePath = System.getProperty("user.dir")+File.separator+"template";
@@ -84,7 +83,6 @@ public class ZTestReport implements IReporter {
 		this.sort(list);
 		this.outputResult(list);
 	}
-
 	private ArrayList<ITestResult> listTestResult(IResultMap resultMap) {
 		Set<ITestResult> results = resultMap.getAllResults();
 		return new ArrayList<ITestResult>(results);

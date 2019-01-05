@@ -1,5 +1,5 @@
 /*
- * 测试用例运行的主脚本
+ * 濞村鐦悽銊ょ伐鏉╂劘顢戦惃鍕瘜閼存碍婀�
  * 
  */
 package com.testapi.casev;
@@ -19,11 +19,12 @@ import com.testapi.until.Makejson;
 import com.testapi.until.ParseJson;
 import com.testapi.until.ZTestReport;
 /*
- * 这里才用了网上开源的java tesng的测试报告模块。
+ * 鏉╂瑩鍣烽幍宥囨暏娴滃棛缍夋稉濠傜磻濠ф劗娈慾ava tesng閻ㄥ嫭绁寸拠鏇熷Г閸涘﹥膩閸фぜ锟斤拷
  */
+
 @Listeners({ZTestReport.class})
 public class Testapi {
-	@DataProvider(name="DP1")//获取测试参数
+	@DataProvider(name="DP1")//閼惧嘲褰囧ù瀣槸閸欏倹鏆�
     public Object[][] createData() throws Exception {
 		ExcelUtils excelUtils=new ExcelUtils();
 		String path=System.getProperty("user.dir")+File.separator+"casedata"+File.separator+"casedata.xlsx";
@@ -34,15 +35,15 @@ public class Testapi {
   public void f(String url,String path,String meth,String map,String qiwang) {
 	String param1 = Makejson.makejson(map);
 	Getcode getcode=new Getcode();
-	url=url+path;//拼接请求的url
+	url=url+path;//閹峰吋甯寸拠閿嬬湴閻ㄥ増rl
 	String resulst=getcode.getHttpResponse(param1, url, meth);
 	String bnei=ParseJson.Json(resulst);
 	assertEquals(bnei,qiwang);
   }
-  @BeforeTest//测试前执行的操作
+  @BeforeTest//濞村鐦崜宥嗗⒔鐞涘瞼娈戦幙宥勭稊
   public void beforeTest() {
   }
-  @AfterTest//测试后执行的操作
+  @AfterTest//濞村鐦崥搴㈠⒔鐞涘瞼娈戦幙宥勭稊
   public void afterTest() {
   }
 }

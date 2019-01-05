@@ -7,7 +7,7 @@
         <methods>
           <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="f" invocation-numbers="2 3 4 5"/>
         </methods>
       </class> <!-- com.testapi.casev.Testapi -->
     </classes>

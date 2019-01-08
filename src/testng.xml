@@ -4,8 +4,9 @@
 
 <listeners>
   <listener class-name="com.testapi.until.TestRunnerListener"/>
-        <listener class-name="com.testapi.until.RetryListener"/>
-    </listeners>
+        <listener class-name="com.testapi.until.RetryListener"/> 
+         <listener class-name="org.uncommons.reportng.HTMLReporter" />
+                     <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /></listeners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.testapi.casev.Testapi"/>

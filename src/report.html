@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>娴嬭瘯鎶ュ憡</title>
+    <title>测试报告</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
@@ -6963,7 +6963,7 @@
 <body class="gray-bg">
 <div class="row  border-bottom white-bg dashboard-header">
     <div class="col-sm-12 text-center">
-        <span style="color: #1ab394; font-size: 20px; font-weight: 700">娴嬭瘯鎶ュ憡</span>
+        <span style="color: #1ab394; font-size: 20px; font-weight: 700">测试报告</span>
     </div>
 </div>
 <div class="wrapper wrapper-content animated fadeInRight">
@@ -6971,7 +6971,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>鎶ュ憡姹囨��</h5>
+                    <h5>报告汇总</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -6986,43 +6986,43 @@
                         <div class="col-sm-6 b-r" style="height:350px">
                             <form class="form-horizontal">
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">鐢ㄤ緥鍚嶇О:</label>
+                                    <label class="col-sm-2 control-label text-navy">用例名称:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control" id="testName"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">鐢ㄤ緥鎬绘暟:</label>
+                                    <label class="col-sm-2 control-label text-navy">用例总数:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control" id="testAll"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">鐢ㄤ緥閫氳繃:</label>
+                                    <label class="col-sm-2 control-label text-navy">用例通过:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control" id="testPass"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-danger">鐢ㄤ緥澶辫触:</label>
+                                    <label class="col-sm-2 control-label text-danger">用例失败:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control text-danger" id="testFail"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-warning">鐢ㄤ緥璺宠繃:</label>
+                                    <label class="col-sm-2 control-label text-warning">用例跳过:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control text-warning" id="testSkip"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">寮�濮嬫椂闂�:</label>
+                                    <label class="col-sm-2 control-label text-navy">开始时间:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control" id="beginTime"></span>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-2 control-label text-navy">杩愯鏃堕棿:</label>
+                                    <label class="col-sm-2 control-label text-navy">运行时间:</label>
                                     <div class="col-sm-5">
                                         <span class="form-control" id="totalTime"></span>
                                     </div>
@@ -7041,7 +7041,7 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>璇︾粏鏁版嵁</h5>
+                    <h5>详细数据</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
@@ -7053,27 +7053,27 @@
                 </div>
                 <div class="ibox-content">
                     <div class="input-group panel-heading" style="width: 100%; background-color: #1ab394; margin-bottom: 10px; text-align: left; font-family: Consolas;">
-                        <label style="color: snow">娴嬭瘯绫�:</label>
+                        <label style="color: snow">测试类:</label>
                         <select class="chosen-select form-control" data-placeholder="----------" style="width: 300px;" name="filterClass" id="filterClass">
                             <option value="">----------</option>
                         </select>
-                        <label style="color: snow">缁撴灉:</label>
+                        <label style="color: snow">结果:</label>
                         <select class="chosen-select form-control" data-placeholder="----------" style="width: 300px;" name="filterResult" id="filterResult">
                             <option value="">----------</option>
                         </select>
                         <div style="float: right">
                             <label class="form-control">
-                                <span class="text-navy">鐢ㄤ緥鏁�: </span><span class="text-navy b-r" id="filterAll"></span><span> | </span>
-                                <span style="color: green">鎴愬姛: </span><span style="color: green" id="filterOk"></span><span> | </span>
-                                <span class="text-danger">澶辫触: </span><span class="text-danger" id="filterFail"></span><span> | </span>
-                                <span class="text-warning">璺宠繃: </span><span class="text-warning" id="filterSkip"></span>
+                                <span class="text-navy">用例数: </span><span class="text-navy b-r" id="filterAll"></span><span> | </span>
+                                <span style="color: green">成功: </span><span style="color: green" id="filterOk"></span><span> | </span>
+                                <span class="text-danger">失败: </span><span class="text-danger" id="filterFail"></span><span> | </span>
+                                <span class="text-warning">跳过: </span><span class="text-warning" id="filterSkip"></span>
                             </label>
                         </div>
                     </div>
                     <table class="table table-bordered">
                         <thead>
                         <tr>
-                            <th>缂栧彿</th><th>娴嬭瘯绫�</th><th>娴嬭瘯鏂规硶</th><th>鐢ㄤ緥鎻忚堪</th><th>鑰楁椂</th><th>缁撴灉</th><th>鎿嶄綔</th>
+                            <th>编号</th><th>测试类</th><th>测试方法</th><th>用例描述</th><th>耗时</th><th>结果</th><th>操作</th>
                         </tr>
                         </thead>
                         <tbody id="detailBody">
@@ -7130,28 +7130,28 @@
     var resultData = {
   "testPass": 10,
   "testSkip": 12,
-  "totalTime": "7046ms",
+  "totalTime": "692ms",
   "testAll": 26,
-  "beginTime": "2019-01-05 17:04:20.956",
+  "beginTime": "2019-01-08 17:21:25.255",
   "testResult": [
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "416ms",
+      "spendTime": "113ms",
       "status": "成功",
       "log": []
     },
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "445ms",
+      "spendTime": "14ms",
       "status": "成功",
       "log": []
     },
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "82ms",
+      "spendTime": "15ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7163,9 +7163,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)",
@@ -7192,7 +7192,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "105ms",
+      "spendTime": "18ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7204,9 +7204,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7233,7 +7233,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "1521ms",
+      "spendTime": "18ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7245,9 +7245,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7274,7 +7274,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "419ms",
+      "spendTime": "14ms",
       "status": "失败",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7286,9 +7286,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7315,7 +7315,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "39ms",
+      "spendTime": "11ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7327,9 +7327,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)",
@@ -7356,7 +7356,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "45ms",
+      "spendTime": "16ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7368,9 +7368,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7397,7 +7397,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "58ms",
+      "spendTime": "18ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7409,9 +7409,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7438,7 +7438,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "300ms",
+      "spendTime": "19ms",
       "status": "失败",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7450,9 +7450,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7479,7 +7479,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "30ms",
+      "spendTime": "12ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7491,9 +7491,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)",
@@ -7520,7 +7520,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "34ms",
+      "spendTime": "15ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7532,9 +7532,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7561,7 +7561,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "385ms",
+      "spendTime": "17ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7573,9 +7573,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7602,7 +7602,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "1066ms",
+      "spendTime": "11ms",
       "status": "失败",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7614,9 +7614,9 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7643,7 +7643,7 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "50ms",
+      "spendTime": "17ms",
       "status": "跳过",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7655,54 +7655,13 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)",
         "    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)",
-        "    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)",
-        "    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)",
-        "    org.testng.TestRunner.privateRun(TestRunner.java:648)",
-        "    org.testng.TestRunner.run(TestRunner.java:505)",
-        "    org.testng.SuiteRunner.runTest(SuiteRunner.java:455)",
-        "    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)",
-        "    org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)",
-        "    org.testng.SuiteRunner.run(SuiteRunner.java:364)",
-        "    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)",
-        "    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)",
-        "    org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)",
-        "    org.testng.TestNG.runSuitesLocally(TestNG.java:1137)",
-        "    org.testng.TestNG.runSuites(TestNG.java:1049)",
-        "    org.testng.TestNG.run(TestNG.java:1017)",
-        "    org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)",
-        "    org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)",
-        "    org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)"
-      ]
-    },
-    {
-      "className": "com.testapi.casev.Testapi",
-      "methodName": "f",
-      "spendTime": "34ms",
-      "status": "跳过",
-      "log": [
-        "java.lang.AssertionError: expected [4001] but found [4000]",
-        "    org.testng.Assert.fail(Assert.java:96)",
-        "    org.testng.Assert.failNotEquals(Assert.java:776)",
-        "    org.testng.Assert.assertEqualsImpl(Assert.java:137)",
-        "    org.testng.Assert.assertEquals(Assert.java:118)",
-        "    org.testng.Assert.assertEquals(Assert.java:453)",
-        "    org.testng.Assert.assertEquals(Assert.java:463)",
-        "    com.testapi.casev.Testapi.f(Testapi.java:41)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
-        "    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
-        "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
-        "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
-        "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
-        "    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)",
         "    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)",
         "    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)",
         "    org.testng.TestRunner.privateRun(TestRunner.java:648)",
@@ -7736,9 +7695,10 @@
         "    org.testng.Assert.assertEquals(Assert.java:453)",
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
-        "    sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)",
+        "    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7765,7 +7725,47 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "18ms",
+      "spendTime": "167ms",
+      "status": "跳过",
+      "log": [
+        "java.lang.AssertionError: expected [4001] but found [4000]",
+        "    org.testng.Assert.fail(Assert.java:96)",
+        "    org.testng.Assert.failNotEquals(Assert.java:776)",
+        "    org.testng.Assert.assertEqualsImpl(Assert.java:137)",
+        "    org.testng.Assert.assertEquals(Assert.java:118)",
+        "    org.testng.Assert.assertEquals(Assert.java:453)",
+        "    org.testng.Assert.assertEquals(Assert.java:463)",
+        "    com.testapi.casev.Testapi.f(Testapi.java:41)",
+        "    sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
+        "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
+        "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
+        "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
+        "    org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1009)",
+        "    org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)",
+        "    org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)",
+        "    org.testng.TestRunner.privateRun(TestRunner.java:648)",
+        "    org.testng.TestRunner.run(TestRunner.java:505)",
+        "    org.testng.SuiteRunner.runTest(SuiteRunner.java:455)",
+        "    org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)",
+        "    org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)",
+        "    org.testng.SuiteRunner.run(SuiteRunner.java:364)",
+        "    org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)",
+        "    org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)",
+        "    org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)",
+        "    org.testng.TestNG.runSuitesLocally(TestNG.java:1137)",
+        "    org.testng.TestNG.runSuites(TestNG.java:1049)",
+        "    org.testng.TestNG.run(TestNG.java:1017)",
+        "    org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)",
+        "    org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)",
+        "    org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)"
+      ]
+    },
+    {
+      "className": "com.testapi.casev.Testapi",
+      "methodName": "f",
+      "spendTime": "17ms",
       "status": "失败",
       "log": [
         "java.lang.AssertionError: expected [4001] but found [4000]",
@@ -7777,8 +7777,8 @@
         "    org.testng.Assert.assertEquals(Assert.java:463)",
         "    com.testapi.casev.Testapi.f(Testapi.java:41)",
         "    sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)",
-        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)",
-        "    java.lang.reflect.Method.invoke(Unknown Source)",
+        "    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)",
+        "    java.lang.reflect.Method.invoke(Method.java:498)",
         "    org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)",
         "    org.testng.internal.Invoker.invokeMethod(Invoker.java:580)",
         "    org.testng.internal.Invoker.retryFailed(Invoker.java:838)",
@@ -7805,6 +7805,27 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
+      "spendTime": "12ms",
+      "status": "成功",
+      "log": []
+    },
+    {
+      "className": "com.testapi.casev.Testapi",
+      "methodName": "f",
+      "spendTime": "25ms",
+      "status": "成功",
+      "log": []
+    },
+    {
+      "className": "com.testapi.casev.Testapi",
+      "methodName": "f",
+      "spendTime": "18ms",
+      "status": "成功",
+      "log": []
+    },
+    {
+      "className": "com.testapi.casev.Testapi",
+      "methodName": "f",
       "spendTime": "15ms",
       "status": "成功",
       "log": []
@@ -7812,55 +7833,34 @@
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "398ms",
+      "spendTime": "28ms",
       "status": "成功",
       "log": []
     },
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "65ms",
+      "spendTime": "22ms",
       "status": "成功",
       "log": []
     },
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "95ms",
+      "spendTime": "16ms",
       "status": "成功",
       "log": []
     },
     {
       "className": "com.testapi.casev.Testapi",
       "methodName": "f",
-      "spendTime": "783ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.casev.Testapi",
-      "methodName": "f",
-      "spendTime": "506ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.casev.Testapi",
-      "methodName": "f",
-      "spendTime": "84ms",
-      "status": "成功",
-      "log": []
-    },
-    {
-      "className": "com.testapi.casev.Testapi",
-      "methodName": "f",
-      "spendTime": "32ms",
+      "spendTime": "23ms",
       "status": "成功",
       "log": []
     }
   ],
   "testFail": 4,
-  "testName": "20190105170420341"
+  "testName": "20190108172124808"
 };
 
     function clickRow(obj){
@@ -7869,20 +7869,20 @@
     }
 
     function details(obj) {
-        if ($(obj).text() == '灞曞紑') {
+        if ($(obj).text() == '展开') {
             var len = $(obj).parent().parent().children().length;
             var detailLog = "";
             var logs = resultData["testResult"][parseInt($(obj).attr("buttonIndex"))]["log"];
-            $(obj).text("鏀剁缉");
+            $(obj).text("收缩");
             $(obj).removeClass("btn-primary");
             $(obj).addClass("btn-danger");
             $.each(logs, function (i, n) {
                 detailLog = detailLog + "<p>" + n + "</p>";
             });
             $(obj).parent().parent().after("<tr><td colspan='" + len + "'><div style='font-family: Consolas;font-size:12px'>" + detailLog + "</div></td></tr>");
-        } else if ($(obj).text() == '鏀剁缉') {
+        } else if ($(obj).text() == '收缩') {
             $(obj).parent().parent().next().remove();
-            $(obj).text("灞曞紑");
+            $(obj).text("展开");
             $(obj).removeClass("btn-danger");
             $(obj).addClass("btn-primary");
         }
@@ -7931,15 +7931,15 @@
                 if ((className == "" || n["className"] == className) && (caseResult == "" || n["status"] == caseResult)) {
                     filterAll += 1;
                     var status = "";
-                    if (n["status"] == '鎴愬姛') {
+                    if (n["status"] == '成功') {
                         filterOk += 1;
-                        status = "<td><span class='text-navy'>鎴愬姛</span></td>";
-                    } else if (n["status"] == '澶辫触') {
+                        status = "<td><span class='text-navy'>成功</span></td>";
+                    } else if (n["status"] == '失败') {
                         filterFail += 1;
-                        status = "<td><span class='text-danger'>澶辫触</span></td>";
-                    } else if (n["status"] == '璺宠繃') {
+                        status = "<td><span class='text-danger'>失败</span></td>";
+                    } else if (n["status"] == '跳过') {
                         filterSkip += 1;
-                        status = "<td><span class='text-warning'>璺宠繃</span></td>";
+                        status = "<td><span class='text-warning'>跳过</span></td>";
                     } else {
                         status = "<td><span>" + n["status"] + "</span></td>";
                     }
@@ -7949,7 +7949,7 @@
                         "<td>" + n["methodName"] + "</td>" +
                         "<td>" + n["description"] + "</td>" +
                         "<td>" + n["spendTime"] + "</td>" +
-                        status + "<td><button type='button' onclick='details(this)' buttonIndex='" + i + "' class='btn btn-primary btn-xs' style='margin-bottom: 0px'>灞曞紑</button></td></tr>"
+                        status + "<td><button type='button' onclick='details(this)' buttonIndex='" + i + "' class='btn btn-primary btn-xs' style='margin-bottom: 0px'>展开</button></td></tr>"
                     $("#detailBody").append(tr);
                 }
             });
@@ -7978,7 +7978,7 @@
         function pie() {
             var option = {
                 title: {
-                    text: '娴嬭瘯鐢ㄤ緥杩愯缁撴灉',
+                    text: '测试用例运行结果',
                     subtext: '',
                     x: 'center'
                 },
@@ -7989,18 +7989,18 @@
                 legend: {
                     orient: 'vertical',
                     left: 'left',
-                    data: ['澶辫触', '璺宠繃', '鎴愬姛']
+                    data: ['失败', '跳过', '成功']
                 },
                 series: [
                     {
-                        name: '杩愯缁撴灉',
+                        name: '运行结果',
                         type: 'pie',
                         radius: '55%',
                         center: ['50%', '60%'],
                         data: [
-                            {value: resultData["testFail"], name: '澶辫触'},
-                            {value: resultData["testSkip"], name: '璺宠繃'},
-                            {value: resultData["testPass"], name: '鎴愬姛'}
+                            {value: resultData["testFail"], name: '失败'},
+                            {value: resultData["testSkip"], name: '跳过'},
+                            {value: resultData["testPass"], name: '成功'}
                         ],
                         itemStyle: {
                             emphasis: {

@@ -10,19 +10,13 @@ import java.io.File;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.testapi.until.ExcelUtils;
 import com.testapi.until.Getcode;
 import com.testapi.until.Makejson;
 import com.testapi.until.ParseJson;
-import com.testapi.until.ZTestReport;
-/*
- * 鏉╂瑩鍣烽幍宥囨暏娴滃棛缍夋稉濠傜磻濠ф劗娈慾ava tesng閻ㄥ嫭绁寸拠鏇熷Г閸涘﹥膩閸фぜ锟斤拷
- */
 
-@Listeners({ZTestReport.class})
 public class Testapi {
 	@DataProvider(name="DP1")//閼惧嘲褰囧ù瀣槸閸欏倹鏆�
     public Object[][] createData() throws Exception {
